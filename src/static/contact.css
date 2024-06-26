@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-image: url("images/det1_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul{
+    color:white;
+    padding-left: 50%;
+   
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+    
+    
+}
+h1{
+    padding-right: 70%;
+    color: white;
+    font-size: 3rem;
+   
+}
+#contact{
+    text-align: center;
+   
+}
+.main{
+    display:flex;
+   
+}
+#contact form{
+    width: 300px;
+    height: 350px;
+    background-color:transparent;
+    margin-left: 750px;
+    padding: 100px;
+    margin-top: 100px;
+    border: 4px solid white;
+   
+}
+span{
+    color:red;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+

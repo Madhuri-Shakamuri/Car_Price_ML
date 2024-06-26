@@ -1,0 +1,25 @@
+body
+{
+        text-align: center;
+        background:transparent;
+        background-image: url("images/det1_img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+       
+}
+h1{
+font-size: xx-large;
+color: aliceblue;
+}
+p{
+    font-size: xx-large;
+    color: aliceblue;
+}
+span{
+   
+    color:red;
+    font-size: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}

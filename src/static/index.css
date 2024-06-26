@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background:transparent;
+    background-image: url("images/home3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    padding-right: 55%;
+    padding-top: 3%;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+ul{
+    color:white;
+    padding-left: 50%;
+    padding-top: 5%;
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+    
+span{
+    color:red;
+    font-size: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#home
+{
+  margin-right: 75%;
+  
+
+}
+.slide h3 {
+    color: white;
+    margin-top: 0%;
+    margin-left: 20%;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+

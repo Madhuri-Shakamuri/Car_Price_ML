@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Car Price Detection</title>
+        <link rel="stylesheet" type="text/css" href="../static/det.css">
+        <link rel="icon" href="carlogo.avif">
+        <h1><span>C</span>ar <span>P</span>rice <span>D</span>etection</h1>
+        <ul>
+            <a href="/">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/detect">Detect</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/contact">Contact Us</a>
+             </ul>
+             <body>
+                <section id="formdetails">
+                <h2 style="color: white; font-size:2rem;padding-right: 1450px; ">Car Requirement Data</h2>
+
+               <div class="form-container" style=" padding-left:100px ;">
+                
+                    
+                    <form method="POST" action="/predict"> 
+                       
+                        <div class="enginepower" >
+                          
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p style="font-size: small; color: white;padding-bottom: 0%; ">ENGINE &nbsp;POWER :</p>
+                            <input type="number" style=" border-radius: 5px;  padding-right: 5px; padding-top: 5px; " name="ENGINE_POWER">
+                            <br>
+                            <br>
+                           <p style="font-size: small; color: white; padding-bottom: 0%;">AGE_IN_DAYS :</p>
+                           <input type="number" style=" border-radius: 5px;  padding-right: 5px; padding-top: 5px; " name="AGE_IN_DAYS" >
+                           <br>
+                           <br>
+                          <p style="font-size: small; color: white; ">KM :</p>
+                          <input type="number" style=" border-radius: 5px;  padding-right: 5px; padding-top: 5px;" name="KM">
+                          <br>
+                          <br>
+                          <p style="font-size:small; color: white; ">Previous_Owners :</p>
+                          <input type="number" style=" border-radius: 5px;  padding-right: 5px; padding-top: 5px;" name="Previous_Owners">
+               
+                         
+                          <br>
+                          <br>
+                         
+                          <p style="font-size:small; color: white; ">Model :</p>
+                        
+        <select id="model" style=" border-radius: 5px;  padding-right: 90px;  padding-top: 5px;" name="Model_types">
+            
+            <option value="lounge">Lounge</option>
+            <option value="pop	">Pop</option>
+            <option value="sport">Sport</option>
+       </select>
+
+                     <br>
+                     <br>
+
+                      <div class="but"  >
+                      <button style=" border-radius: 4px; padding-right: 15px; padding-left: 15px;">
+                      <p>Submit</p>
+                      </button>
+                     </div>               
+         </form>
+         </div>
+        </section>      
+               
+                               
+                                
+                           
+            </body>
+    </head>
+</html>

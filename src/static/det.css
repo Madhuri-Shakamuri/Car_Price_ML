@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-image: url("images/det1_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+span{
+    color:red;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+ul{
+    color:white;
+    padding-left: 50%;
+   
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+h1{
+    padding-right: 70%;
+    color: white;
+    font-size: 3rem;
+   
+}
+#formdetails form{
+    width: 500px;
+    height: 600px;
+    background-color:transparent;
+    margin-left: 650px;
+    
+   
+    border: 4px solid white;
+   
+}
